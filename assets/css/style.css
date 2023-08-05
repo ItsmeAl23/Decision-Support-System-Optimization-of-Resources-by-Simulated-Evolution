@@ -1,0 +1,249 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.nm{
+    display: flex;
+    position: relative;
+}
+.header-menu{
+    padding: 10px 25px;
+    color: #c2c7d0;
+    margin: 0;
+}
+.nav{
+    background-color: #343a40;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+}
+.nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav li{
+    padding: 10px 15px;
+    margin: 2px 0;
+}
+.nav li.aktif{
+    background-color: #494e53;
+}
+.nav a{
+    color: #babfc8;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+.nav li:hover{
+    background-color: #494e53;
+}
+hr{
+    border: 1px solid #454d55;
+    margin: 0;
+}
+.hr-1{
+    margin: 8px;
+}
+.logout{
+    padding: 10px;
+    color: #c2c7d0;
+}
+.logout-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px 20px;
+}
+.logout-btn:hover{
+    background-color: #da190b;
+}
+.main{
+    margin-left: 15%;
+    width: 85%;
+    height: 95%;
+    position: fixed;
+    background-color: #f4f6f9;
+    overflow: scroll;
+}
+.main::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }  
+.main::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}  
+.main::-webkit-scrollbar-thumb {
+    background: #888;
+}  
+.main::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.header{
+    background-color: white;
+}
+.main-header{
+    padding: 15px 10px;
+    margin: 0;
+}
+.main-header a{
+    color: #9a909d;
+    text-decoration: none;
+}
+.hr-2{
+    border: 1px solid #e6e9ec;
+}
+.content{
+    width: 100%;
+}
+.judul-content{
+    color: black;
+    padding: 15px 10px;
+    margin: 0;
+}
+.footer{
+    background-color: white;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+.footer-text{
+    padding: 10px 0;
+    text-align: center; 
+    max-width: 1200px;
+    margin: auto 0;
+}
+.login{
+    width: 350px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}  
+.login-text{
+    text-align: center;
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+}
+.label-login{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.input-login[type="text"],
+.input-login[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.btn-login[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-login[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+.tabel-alternatif{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+th, td{
+    padding: 8px;
+    word-wrap: break-word;
+    text-align: center;
+    border: 1px solid #b1b1b1;
+}
+th:last-child,
+td:last-child{
+  border-right: none;
+}
+th:first-child,
+td:first-child{
+  border-left: none;
+}
+tr:last-child{
+    border-bottom: 1px solid black;
+}
+tr:first-child{
+    border-top: 1px solid black;
+}
+th{
+    background-color: #4CAF50;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.kode{
+    width: 8%;
+}
+.nama{
+    width: 20%;
+    word-wrap: break-word;
+}
+.penghasilan{
+    width: 12%;
+    word-wrap: break-word;
+}
+.aksi{
+    width: 20%;
+}
+.halaman{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center; 
+    max-width: 1200px;
+    margin: auto 0;
+}
+.halaman a{
+    display: inline-block;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}  
+.halaman a:hover{
+    background-color: #3e8e41;
+}
+.btn{
+    width: 85%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: right;
+}
+.proses-btn{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px 20px;
+}
+.proses-btn:hover{
+    background-color: #3e8e41;
+}
+
